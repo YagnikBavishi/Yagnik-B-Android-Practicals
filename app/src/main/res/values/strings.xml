@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Android Practical</string>
+    <string name="button_name">Submit</string>
+    <string name="button_icon_desc">ImageButton</string>
+    <string name="imageButton_text">Image Button</string>
+    <string name="form">Form</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="gender">Gender:-</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="hobby">Hobbies:-</string>
+    <string name="cricket">Cricket</string>
+    <string name="reading">Reading</string>
+    <string name="writing">Writing</string>
+    <string name="customToast">Custom Toast</string>
+    <string name="uiWidgets">UI Widgets</string>
+    <string name="switchbutton">Switch</string>
+    <string name="helloWord">helloWord</string>
+    <string name="to">to</string>
 </resources>
