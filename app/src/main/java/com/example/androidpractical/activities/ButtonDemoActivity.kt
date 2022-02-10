@@ -19,7 +19,7 @@ class ButtonDemoActivity : AppCompatActivity() {
         setContentView(R.layout.activity_button_demo)
 
         val layoutLinear: LinearLayout = findViewById(R.id.linearLayout)
-        val button: Button = findViewById(R.id.Form)
+        val button: Button = findViewById(R.id.btnForm)
         val imageButton: ImageButton = findViewById(R.id.imageButton)
         val submit: Button = findViewById(R.id.simpleButton)
 

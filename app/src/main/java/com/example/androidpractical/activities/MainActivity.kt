@@ -10,9 +10,17 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val button: Button = findViewById(R.id.buttonId)
-        button.setOnClickListener {
+
+        val btnUIWidgets: Button = findViewById(R.id.btnUIWidgets)
+        val btnLayout: Button = findViewById(R.id.btnLayouts)
+
+        btnUIWidgets.setOnClickListener {
             val intent = Intent(this, ButtonDemoActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLayout.setOnClickListener {
+            val intent = Intent(this, AllLayoutActivity::class.java)
             startActivity(intent)
         }
     }
