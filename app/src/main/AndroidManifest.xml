@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidpractical">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractical">
+        <activity
+            android:name=".activities.BottomNavigationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ViewpagerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.GridLayoutInRecyclerviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AllViewsAndAdaptersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ListViewActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.WebViewActivity"
             android:exported="false" />

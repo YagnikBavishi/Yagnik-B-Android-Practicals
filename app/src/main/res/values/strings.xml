@@ -47,4 +47,74 @@
     <string name="no1">1</string>
     <string name="no2">2</string>
     <string name="no3">3</string>
+    <string name="recyclerviewAndAdapter">Recyclerview and Adapter</string>
+    <string name="ListViewWithAdapter">List View With Adapter</string>
+
+    <!-- Recycler View String Value -->
+    <string name="list_title">title</string>
+    <string name="list_description">description</string>
+    <string name="c_language_name">C</string>
+    <string name="cpp_language_name">C++</string>
+    <string name="java_language_name">Java</string>
+    <string name="swift_language_name">Swift</string>
+    <string name="python_language_name">Python</string>
+    <string name="c_description"> C language</string>
+    <string name="cpp_description">C++ language</string>
+    <string name="java_description">Java language</string>
+    <string name="swift_description">Swift language</string>
+    <string name="python_description">Python language</string>
+    <string name="recyclerView">"Recycler View "</string>
+    <string name="btnGridViewWithRecycler">Grid View With Recycler View</string>
+
+    <!-- View Pager and Bottom Navigation String -->
+    <string name="fragment1">Home Fragment</string>
+    <string name="fragment2">Profile Fragment</string>
+    <string name="btnViewPager">View Pager</string>
+    <string name="recent">Recent</string>
+    <string name="my_favorites">My favorites</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="btnBottomNavigation">Bottom Navigation</string>
+
+    <!-- Expandable List View String Items -->
+    <string name="movie_name">movie name</string>
+    <string name="first_appearance">First appearance:-</string>
+    <string name="team">Team:-</string>
+    <string name="captainAmerica">Captain America</string>
+    <string name="ironMan">Iron Man</string>
+    <string name="wolvarine">Wolvarine</string>
+    <string name="spiderman">Spiderman</string>
+    <string name="thor">Thor</string>
+    <string name="captainAmericaFA">1941</string>
+    <string name="ironManFA">1963</string>
+    <string name="wolvarineFA">1974</string>
+    <string name="spidermanFA">1962</string>
+    <string name="thorFA">1962</string>
+    <string name="avengers">Avengers</string>
+    <string name="x_men">X_Men</string>
+    <string name="real_name">Real Name :- </string>
+    <string name="bio">Bio :-</string>
+    <string name="CreatedBy">Created By :- </string>
+    <string name="publisher">Publisher : -</string>
+    <string name="captaion_amrica_real_name">Steve Rogers</string>
+    <string name="captaion_amrica_created_by">Joe Simon</string>
+    <string name="captaion_amrica_publisher">Marvel Comics</string>
+    <string name="captaion_amrica_bio">Steven Rogers was born in the Lower East Side of Manhattan, New York City, in 1925 to poor Irish immigrants, Sarah and Joseph Rogers.[54] Joseph died when Steve was a child, and Sarah died of pneumonia while Steve was a teen.</string>
+    <string name="iron_man_real_name">Tony Stark</string>
+    <string name="iron_man_created_by">Stan Lee</string>
+    <string name="iron_man_publisher">Marvel Comics</string>
+    <string name="iron_man_bio">Anthony Edward Stark, the son of wealthy industrialist and head of Stark Industries, Howard Stark, and Maria Stark. A boy genius, he enters MIT at the age of 15 to study electrical engineering and later receives master\'s degrees in electrical engineering and physics.</string>
+    <string name="wolvarine_real_name">James Howlett</string>
+    <string name="wolvarine_created_by">Len Wein</string>
+    <string name="wolvarine_publisher">Marvel Comics</string>
+    <string name="wolvarine_bio">Wolverine was born James Howlett in northern Alberta, Canada, during the late 1880s, purportedly to rich farm owners John and Elizabeth Howlett, though he is actually the illegitimate son of the Howletts\' groundskeeper, Thomas Logan.</string>
+    <string name="spiderman_real_name">Peter Parker</string>
+    <string name="spiderman_created_by">Stan Lee</string>
+    <string name="spiderman_publisher">Marvel Comics</string>
+    <string name="spiderman_bio">\"Forest Hills, Queens, New York, Midtown High School student Peter Parker is a science-whiz orphan living with his Uncle Ben and Aunt May. \"</string>
+    <string name="thor_real_name">Thor Odinson</string>
+    <string name="thor_created_by">Stan Lee</string>
+    <string name="thor_publisher">Marvel Comics</string>
+    <string name="thor_bio">Thor\'s father Odin decides his son needed to be taught humility and consequently places Thor (without memories of godhood) into the body and memories of an existing, partially disabled human medical student, Donald Blake.</string>
 </resources>
