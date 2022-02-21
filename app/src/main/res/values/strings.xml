@@ -117,4 +117,39 @@
     <string name="thor_created_by">Stan Lee</string>
     <string name="thor_publisher">Marvel Comics</string>
     <string name="thor_bio">Thor\'s father Odin decides his son needed to be taught humility and consequently places Thor (without memories of godhood) into the body and memories of an existing, partially disabled human medical student, Donald Blake.</string>
+    <string name="btn_Activity_Intent_Fragment"><![CDATA["Activity, Intent & Fragment "]]></string>
+    <string name="title_activity_all_intent_and_fragment">AllActivityIntentAndFragmentActivity
+    </string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Strings used for Fragment with Bottom Navigation -->
+    <string name="btn_fragment">Fragment</string>
+    <string name="gallery">Gallery</string>
+    <string name="add_message">Add Message</string>
+    <string name="view_message">View Message</string>
+    <string name="add_back_stack_name">Home Page</string>
+    <string name="btn_fragments_with_bottom_navigation">Fragments With Bottom Navigation</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="intent_data">data</string>
+    <string name="enter_tye_text">Enter Message</string>
+    <string name="website_link">Enter Your Website Link</string>
+    <string name="open_link">Open the Link</string>
+    <string name="btn_send_data_viewModel">Send Using View Model</string>
+    <string name="btn_send_data_bundle">Send Using Bundle</string>
+    <string name="receive_message_using_view_model">Message Receive Using View Model</string>
+    <string name="receive_message_using_bundle">Message Receive Using Bundle</string>
+    <string name="switch_to_jetpack_compose">Switch To Jet Pack Compose</string>
+    <string name="second_edit_text">Please Enter message In Second Edit Text..</string>
+    <string name="message_send_sucess">Message send Successfully..</string>
+    <string name="first_text_view">Please Enter message In First Edit Text..</string>
+    <string name="message">MESSAGE</string>
+    <string name="key">KEY</string>
+    <string name="enter_proper_url">Enter Proper URL..</string>
+
 </resources>
