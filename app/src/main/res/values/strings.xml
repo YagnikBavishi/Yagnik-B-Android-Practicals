@@ -152,4 +152,22 @@
     <string name="key">KEY</string>
     <string name="enter_proper_url">Enter Proper URL..</string>
 
+    <!-- Strings used for Others views -->
+    <string name="btn_other_views">Other Important Views</string>
+    <string name="btn_webView">Web View</string>
+    <string name="btn_scroll_view">Scroll View</string>
+    <string name="btn_search_view">Search View</string>
+    <string name="button">Button</string>
+    <string name="about_c_language">The C Language is developed by Dennis Ritchie for creating system applications that directly interact with the hardware devices such as drivers, kernels, etc. C programming is considered as the base for other programming languages, that is why it is known as mother language.</string>
+    <string name="about_cpp_language">C++ is an object-oriented programming language. It is an extension to C programming. C++ includes all topics such as control statements, objects and classes, inheritance, constructor, destructor, this, static, polymorphism, abstraction, abstract class, interface, namespace, encapsulation, arrays, strings, exception handling, File IO, etc.</string>
+    <string name="about_java_language"> The Java programming language was developed by Sun Microsystems in the early 1990s. Although it is primarily used for Internet-based applications, Java is a simple, efficient, general-purpose language. Java was originally designed for embedded network applications running on multiple platforms.</string>
+    <string name="about_python_language">Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. It supports multiple programming paradigms beyond object-oriented programming, such as procedural and functional programming.</string>
+    <string name="btn_load_pdf">Load Pdf</string>
+    <string name="not_found_text">No match found!!!</string>
+    <string name="horizontal_scroll_view">Horizontal Scroll View</string>
+    <string name="vertical_scroll_view">Vertical Scroll View</string>
+    <string name="google_query_string">https://www.google.com/search?q=</string>
+    <string name="embedded_string"><![CDATA[https://docs.google.com/gview?embedded=true&url=]]></string>
+    <string name="pdf_link">https://www.ets.org/Media/Tests/GRE/pdf/gre_research_validity_data.pdf</string>
+
 </resources>

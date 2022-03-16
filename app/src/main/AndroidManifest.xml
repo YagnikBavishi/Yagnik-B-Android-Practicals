@@ -18,6 +18,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractical">
         <activity
+            android:name=".activities.SearchViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AdvanceWebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AllOtherViewsActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.FragmentsWithBottomNavigationActivity"
             android:exported="false" />
         <activity
