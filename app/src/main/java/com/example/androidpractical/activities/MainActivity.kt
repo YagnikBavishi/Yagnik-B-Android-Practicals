@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         val btnLayout: Button = findViewById(R.id.btnLayouts)
         val btnRecyclerviewAndAdapter: Button = findViewById(R.id.btnrecyclerviewAndAdapter)
         val btnActivityIntentFragment: Button = findViewById(R.id.btnActivityIntentFragment)
+        val btnOtherViews: Button = findViewById(R.id.btnOtherViews)
 
         btnUIWidgets.setOnClickListener {
             val intent = Intent(this, ButtonDemoActivity::class.java)
@@ -33,6 +34,11 @@ class MainActivity : AppCompatActivity() {
 
         btnActivityIntentFragment.setOnClickListener {
             val intent = Intent(this, AllActivityIntentAndFragmentActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnOtherViews.setOnClickListener {
+            val intent = Intent(this, AllOtherViewsActivity::class.java)
             startActivity(intent)
         }
     }
