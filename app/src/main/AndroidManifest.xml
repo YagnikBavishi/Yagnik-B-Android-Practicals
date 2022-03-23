@@ -18,6 +18,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractical">
         <activity
+            android:name=".activities.DisplaySingleUserDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RetrofitUserDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RetrofitLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AllWebServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserListWithAPICallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.SearchViewActivity"
             android:exported="false" />
         <activity
