@@ -35,7 +35,7 @@ class RetrofitLoginActivity : AppCompatActivity() {
         val loginRequest = LoginRequest()
         loginRequest.email = tvEmail.text.toString()
         loginRequest.password = tvPassWord.text.toString()
-        val loginAPI = apiInterface.loginAPI(loginRequest)
+        val loginAPI = apiInterface.verifyLogin(loginRequest)
         loginAPI.enqueue(object : Callback<Any> {
             override fun onResponse(call: Call<Any>, response: Response<Any>) {
                 response.body()

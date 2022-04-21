@@ -4,6 +4,8 @@ import com.example.androidpractical.Models.AddUserDataClass
 import com.example.androidpractical.Models.LoginRequest
 import com.example.androidpractical.Models.RetrofitUserListModelClass
 import com.example.androidpractical.Models.SingleUserDataClass
+import com.example.androidpractical.presenter.LoginModelClass
+import com.example.androidpractical.presenter.LoginModelInterface
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -18,7 +20,10 @@ import retrofit2.http.Path
 interface ApiInterface {
 
     @POST("api/login")
-    fun loginAPI(@Body loginRequest: LoginRequest): Call<Any>
+    fun verifyLogin(@Body loginRequest: LoginRequest): Call<Any>
+
+    @POST("api/login")
+    fun loginWithMVC(@Body loginRequest: LoginModelClass): Call<Any>
 
     @GET("api/users?delay=3")
     fun getUserList(): Call<RetrofitUserListModelClass>
