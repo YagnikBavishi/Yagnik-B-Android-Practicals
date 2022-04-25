@@ -36,10 +36,14 @@
             android:name=".activities.AllArchitectureActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.DisplaySingleUserDataActivity"
+            android:name=".activities.TextInputLayoutActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AddUserActivity"
+            android:name=".activities.NavigationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".activities.DisplaySingleUserDataActivity"
             android:exported="false" />
         <activity
             android:name=".activities.RetrofitUserDataActivity"

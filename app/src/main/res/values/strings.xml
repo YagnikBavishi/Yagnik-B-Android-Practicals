@@ -197,6 +197,25 @@
     <string name="base_url">https://reqres.in/</string>
     <string name="login_url">https://reqres.in/api/login</string>
     <string name="delay_url">https://reqres.in/api/users?delay=3</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_search">Search</string>
+    <string name="btn_design_support_library">Design Support Library</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="enter_message">Enter Message…</string>
+    <string name="TextInputLayout">Text Input Layout</string>
+    <string name="section_one">Section1</string>
+    <string name="section_two">Section2</string>
+    <string name="toast_camera">Camera..</string>
+    <string name="toast_gallery">Gallery..</string>
+    <string name="toast_search">Search..</string>
+    <string name="toast_snack_bar">This is Snack Bar..</string>
+    <string name="toast_message">Toast..</string>
+    <string name="btn_action">Action</string>
     <string name="mvc_architecture">MVC Architecture</string>
     <string name="mvp_architecture">MVP Architecture</string>
     <string name="mvvm_architecture">MVVM Architecture</string>
