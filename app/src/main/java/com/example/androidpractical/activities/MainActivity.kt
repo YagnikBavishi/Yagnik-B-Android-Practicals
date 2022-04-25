@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val btnOtherViews: Button = findViewById(R.id.btnOtherViews)
         val btnAllWebServices: Button = findViewById(R.id.btnWebServices)
         val btnArchitecture: Button = findViewById(R.id.btnArchitecture)
+        val btnPermission: Button = findViewById(R.id.btnPermissionModel)
 
         btnUIWidgets.setOnClickListener {
             val intent = Intent(this, ButtonDemoActivity::class.java)
@@ -52,6 +53,10 @@ class MainActivity : AppCompatActivity() {
         btnArchitecture.setOnClickListener {
             val intent = Intent(this, AllArchitectureActivity::class.java)
             startActivity(intent)
+        }
+
+        btnPermission.setOnClickListener {
+            startActivity(Intent(this, AndroidPermissionModelActivity::class.java))
         }
     }
 }

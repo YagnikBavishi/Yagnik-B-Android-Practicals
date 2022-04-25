@@ -201,5 +201,18 @@
     <string name="mvp_architecture">MVP Architecture</string>
     <string name="mvvm_architecture">MVVM Architecture</string>
     <string name="btn_submit">Submit</string>
+    <string name="btn_access_location">Location Permission</string>
+    <string name="btn_audio_permission">Audio Permission</string>
+    <string name="btn_file_picker">File Picker</string>
+    <string name="btn_dial_call">Dial Call</string>
+    <string name="btn_permission">Permission Model</string>
+    <string name="already_have_audio_permission">Already Have Audio Permission</string>
+    <string name="already_have_location_permission">Already Have Location Permission</string>
+    <string name="mobile_number">tel:9712590028</string>
+    <string name="audio_message">Audio</string>
+    <string name="location_message">Location</string>
+    <string name="call_message">Call</string>
+    <string name="permission_denied_message">Permission Denied…</string>
+    <string name="permission_granted_message">Permission Granted…</string>
 
 </resources>

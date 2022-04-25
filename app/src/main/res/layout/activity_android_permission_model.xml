@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AndroidPermissionModelActivity" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAccessLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:text="@string/btn_access_location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnAudioPermission" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAudioPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/btn_audio_permission"
+        app:layout_constraintStart_toStartOf="@+id/btnAccessLocation"
+        app:layout_constraintEnd_toEndOf="@id/btnAccessLocation"
+        app:layout_constraintTop_toBottomOf="@id/btnAccessLocation" />
+
+     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChooseFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/btn_file_picker"
+        app:layout_constraintStart_toStartOf="@+id/btnAudioPermission"
+        app:layout_constraintEnd_toEndOf="@id/btnAudioPermission"
+        app:layout_constraintTop_toBottomOf="@id/btnAudioPermission" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDialCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/btn_dial_call"
+        app:layout_constraintStart_toStartOf="@+id/btnChooseFile"
+        app:layout_constraintEnd_toEndOf="@id/btnChooseFile"
+        app:layout_constraintTop_toBottomOf="@id/btnChooseFile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
