@@ -1,16 +1,23 @@
 package com.example.androidpractical.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import com.example.androidpractical.R
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        AppCenter.start(
+            application, "32a39a79-189c-4386-a53a-4d5595d1de67",
+            Analytics::class.java, Crashes::class.java
+        )
         val btnUIWidgets: Button = findViewById(R.id.btnUIWidgets)
         val btnLayout: Button = findViewById(R.id.btnLayouts)
         val btnRecyclerviewAndAdapter: Button = findViewById(R.id.btnrecyclerviewAndAdapter)
